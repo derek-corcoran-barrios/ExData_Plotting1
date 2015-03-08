@@ -7,7 +7,7 @@ DATE2 <- as.Date("2007-02-02")
 HP<-household_power_consumption[household_power_consumption$Date >= DATE1 & household_power_consumption$Date <= DATE2,]
 
 png("plot1.png")
-hist((HP$Global_active_power), xlab="Global Active power (Kilowatts)", col="red", main="Global Active Power")
+hist((HP$Global_active_power), xlab="Global Active Power (Kilowatts)", col="red", main="Global Active Power")
 
 dev.off()
 

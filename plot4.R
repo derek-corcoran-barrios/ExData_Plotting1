@@ -12,7 +12,7 @@ png("plot4.png")
 
 par(mfrow=c(2,2))
 Sys.setlocale("LC_TIME", "English")
-plot(HP5$datetime,HP5$Global_active_power, type="l", ,ylab="Global active power (Kilowatts)",xlab="")
+plot(HP5$datetime,HP5$Global_active_power, type="l", ,ylab="Global Active Power (Kilowatts)",xlab="")
 plot(HP5$datetime,HP5$Voltage, type="l", ylab="Voltage",xlab="")
 plot(HP5$datetime,HP5$Sub_metering_1, type="l",ylab="Energy submetering",xlab="")
 lines(HP5$datetime,HP5$Sub_metering_2, col="red")

@@ -11,6 +11,6 @@ HP3<-HP2[HP2$Date >= DATE1 & HP2$Date <= DATE2,]
 png("plot2.png")
 Sys.setlocale("LC_TIME", "English")
 
-plot(HP3$datetime,HP3$Global_active_power, type="l", ylab="Global active power (Kilowatts)",xlab="")
+plot(HP3$datetime,HP3$Global_active_power, type="l", ylab="Global Active Power (Kilowatts)",xlab="")
 
 dev.off()
